@@ -1,5 +1,8 @@
 # Project DSList - Java Spring
-## Course taught by [DevSuperior](https://devsuperior.com.br/)
+## Course taught by [DevSuperior](https://devsuperior.com.br/)   
+
+## Deployed on [Railway - DSList-API-Games](https://dslist-api-games-production.up.railway.app/games)
+
 
 ### Domain Model DSList:    
 ![img.png](img.png)    
