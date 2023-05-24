@@ -139,3 +139,33 @@ INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 10, 4);
 
 ### Script Docker Compose:    
 https://gist.github.com/acenelio/5e40b27cfc40151e36beec1e27c4ff71
+
+
+## Endpoints
+#### Return all games    
+```http
+GET /games
+```
+
+#### Return a single game    
+```http
+GET /games/${id}
+```
+
+| Parameter   | Type       | Description                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `id`      | `string` | **Required**. Game ID |
+
+
+#### Return game genres    
+```http
+GET /lists
+```    
+
+#### Return all the games given the genre    
+```http
+GET /lists/${id}/games
+```    
+| Parameter   | Type       | Description                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `id`      | `string` | **Required**. Genre ID |
